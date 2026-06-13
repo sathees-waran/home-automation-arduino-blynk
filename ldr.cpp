@@ -1,3 +1,10 @@
+/*===========================================================================
+    File : ldr.cpp
+    Breif: Controls garden light brightness based on LDR sensor readings.
+           Reads ambient light intensity via analog input and adjusts LED
+           brightness using PWM (analogWrite) with an inverse mapping
+   =========================================================================*/
+
 #include "ldr.h"
 #include "Arduino.h"
 #include "main.h"
