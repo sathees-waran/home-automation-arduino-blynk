@@ -1,7 +1,9 @@
-/===================================================== /
-    File: temperature_system.cpp
-    breif: Controlling Temperature in room
-/=======================================================/
+/*==============================================================================
+    File        : temperature_system.cpp
+    Description : Manages the room temperature system using the LM35 sensor.
+                  Reads analog temperature values, and controls heater and cooler
+                  outputs based on commands received from the Blynk app.
+==================================================================================*/
 #include "temperature_system.h"
 #include "Arduino.h"
 #include "main.h"
