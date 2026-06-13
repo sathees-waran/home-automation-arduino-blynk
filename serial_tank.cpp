@@ -1,3 +1,9 @@
+/*================================================================================
+    File: serial_tank.cpp
+    Breif: Handles serial communication with the virtual water tank.
+           Provides functions to initialize serial connection, read tank
+           volume, and enable/disable inlet and outlet valves via UART commands 
+====================================================================================*/
 #include "serial_tank.h"
 #include "Arduino.h"
 #include "main.h"
